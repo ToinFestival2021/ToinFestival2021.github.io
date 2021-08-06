@@ -1,0 +1,484 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+header{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.attention p{
+  font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+  color: #ff0000;
+  text-align: center;
+}
+.SideBySide h1{
+ display:inline-block;
+ vertical-align:top; /*縦方向の揃え位置を指定*/
+ /* text-align: center; */
+ color: #4682b4;
+
+}
+
+
+
+
+.SideBySide{
+  display:flex;
+}
+header li {
+  list-style: none;
+}
+header h1 {
+	/* float: left;
+	padding: 6px 0; */
+  top: 0px;
+  left: 0px;
+
+}
+header h1 a {
+		display: block;
+		width: 100px;
+		height: 100px;
+		font-size: 0;
+		background: url(https://i.ibb.co/nPzdSNx/image-4425.jpg) left top/120px auto no-repeat;
+}
+.dropdown {
+  display: flex;
+}
+
+.menu {
+  /* width: 300px; */
+  width: 100%;
+  height: 40px;
+  text-align: center;
+    position:sticky;
+    top:0;
+}
+
+.menu-title {
+  background: #c0c0c0;
+  color: #000000;
+}
+
+.sub-menu {
+  display: none;
+  background: #dcdcdc;
+  position: relative;
+}
+
+.sub-menu > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+.sub-menu > ul > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu:hover .sub-menu {
+  display: inline-block;
+}
+
+.title-box-red{
+  margin: 1em 0;
+  border: 2px solid #ff4500;
+  letter-spacing: .3px;
+}
+
+.title-box-red-title{
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #ff4500;
+  padding: 4px 6px;
+  text-align: center;
+}
+
+.title-box-red p{
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+.title-box-red h1{
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+
+.title-box-blue{
+  margin: 1em 0;
+  border: 2px solid #4169e1;
+  letter-spacing: .3px;
+}
+
+.title-box-blue-title{
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #4169e1;
+  padding: 4px 6px;
+  text-align: center;
+}
+
+.title-box-blue p{
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+
+
+
+.cp_hr01 {
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #c0c0c0;
+}
+
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+/* .header-list li {
+  float: left;
+  padding: 33px 0px;
+} */
+
+.main {
+  padding: 50px 0px;
+  /* height: 1000px; */
+}
+
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.copy-container2 img{
+  width: 100%;
+}
+
+.copy-container2 span {
+  color: #ff4a4a;
+}
+.copy-container2 {
+  position: relative;
+  }
+
+.copy-container2 p {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+   /* writing-mode: vertical-rl; */
+  /*文字の装飾は省略*/
+  }
+
+.copy-container2 h1 {
+    position: absolute;
+    font-size: 120px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+     /* writing-mode: vertical-rl; */
+    /*文字の装飾は省略*/
+    }
+
+
+    .copy-container img{
+      width: 100%;
+    }
+
+.copy-container span {
+      color: #ff4a4a;
+    }
+.copy-container {
+      position: relative;
+      }
+
+.copy-container h2 {
+      position: absolute;
+      color: black;
+      font-size: 70px;
+      top: 70%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      margin:0;
+      padding:0;
+
+       /* writing-mode: vertical-rl; */
+      /*文字の装飾は省略*/
+      }
+
+.copy-container h1 {
+        position: absolute;
+        font-size: 120px;
+        color: black;
+        top: 50%;
+        left: 47%;
+        -ms-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        margin:0;
+        padding:0;
+        font-weight: bold;  /* 太文字にする */
+        text-shadow: 1px 1px 0 #808080,2px 2px 0 #808080,3px 3px 0 #808080;  /* 影を3重に指定 */
+
+         /* writing-mode: vertical-rl; */
+        /*文字の装飾は省略*/
+        }
+
+
+
+
+
+
+
+    .contents{
+      position: relative;
+    }
+
+
+
+.copy-container img {
+  width: 100%;
+  }
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+/* inputとtextareaのCSSを指定してください */
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* contact-submitのCSSを指定してください */
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  height:500px;
+  padding: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.footer-logo img{
+  float: left;
+  /* font-size: 16px; */
+  width: 32px;
+ object-fit: cover;
+
+}
+
+.footer-logo2 h1{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.footer-logo2 h2{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.footer-logo2 p{
+   text-align: center;
+}
+.box-for-music{
+  /* border: solid 3px #000; */
+  background-color: rgba(192, 192, 192, 0.65);
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 70%;
+  left: 8%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+
+}
+/* .contents img {
+  width: 50%;
+  } */
+  .box-for-group{
+    /* border: solid 3px #000; */
+    background-color: rgba(192, 192, 192, 0.65);
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 70%;
+    left: 64%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+
+  }
+.container-class-group p{
+  text-align: center;
+  font-size: 30px;
+}
+.container-class-group h1{
+  text-align: center;
+    font-style: bold;
+  font-size: 90px;
+  background: rgb(107,7,238);
+  background: linear-gradient(90deg, rgba(107,7,238,1) 0%, rgba(102,150,231,1) 35%, rgba(0,255,124,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* color: #333;//非対応のブラウザでの文字色を設定
+ background: url(https://i.ibb.co/mBLDkwZ/image0-4535.jpg);//使用する背景画像のURL
+ -webkit-background-clip: text;//テキストでくり抜く
+ -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示 */
+}
+
+.container-yushi-group p{
+  text-align: center;
+  font-size: 30px;
+}
+.container-yushi-group h1{
+  text-align: center;
+    font-style: bold;
+  font-size: 90px;
+  background: rgb(37,7,238);
+  background: linear-gradient(90deg, rgba(37,7,238,1) 0%, rgba(199,102,231,1) 35%, rgba(255,0,116,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* color: #333;//非対応のブラウザでの文字色を設定
+ background: url(https://i.ibb.co/mBLDkwZ/image0-4535.jpg);//使用する背景画像のURL
+ -webkit-background-clip: text;//テキストでくり抜く
+ -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示 */
+}
+
+.container-keion-group p{
+  text-align: center;
+  font-size: 30px;
+}
+.container-keion-group h1{
+  text-align: center;
+  font-size: 90px;
+  font-style: bold;
+/*
+   background-image: url("https://i.ibb.co/4F1GH8j/image1-4543.jpg");
+   -webkit-background-clip: text;       /* 画像を文字で切り抜く指定 */
+   /* color: transparent;                  /* 文字色を透明にする */
+
+background: rgb(238,26,7);
+background: linear-gradient(90deg, rgba(238,26,7,1) 0%, rgba(231,102,224,1) 35%, rgba(255,205,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: #333;//非対応のブラウザでの文字色を設定
+ background: url(https://i.ibb.co/mBLDkwZ/image0-4535.jpg);//使用する背景画像のURL
+ -webkit-background-clip: text;//テキストでくり抜く
+ -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示 */
+}
+.mv{
+float: left;
+margin: 0px 60px 60px 50px;
+padding: 0;
+overflow: hidden;
+}
+iframe[src$=".pdf"]{
+    width:50%;
+    height:80vh;
+}
+.btn{
+    width:200px;
+    height:40px;
+    line-height:40px;
+}
+.btn a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFBFA;
+    text-align:center;
+    color:#040404;
+    font-size:25px;
+    /* font-weight:bold; */
+    box-shadow:5px 5px 0px 0px #DEDEDE ;
+}
+.btn a:hover{
+    background:#ADADAD;
+    color:#010101;
+    margin-left:5px;
+    margin-top:5px;
+    box-shadow:none;
+}
+
+.btn2{
+    width:200px;
+    height:40px;
+    line-height:40px;
+}
+.btn2 a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFBFA;
+    text-align:center;
+    color:#040404;
+    font-size:25px;
+    /* font-weight:bold; */
+    box-shadow:5px 5px 0px 0px #DEDEDE ;
+}
+.btn2 a:hover{
+    background:#ADADAD;
+    color:#010101;
+    margin-left:5px;
+    margin-top:5px;
+    box-shadow:none;
+}
+.file-list{
+  display: flex;
+   justify-content: center; /* 中央寄せ */
+}

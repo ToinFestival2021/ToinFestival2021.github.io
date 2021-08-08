@@ -1,5 +1,4 @@
-
-body {
+body{
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -215,22 +214,6 @@ header h1 a {
     }
 .copy-container {
       position: relative;
-      }
-
-.copy-container h2 {
-      position: absolute;
-      color: black;
-      font-size: 12vh;
-      top: 70%;
-      left: 50%;
-      -ms-transform: translate(-50%,-50%);
-      -webkit-transform: translate(-50%,-50%);
-      transform: translate(-50%,-50%);
-      margin:0;
-      padding:0;
-
-       /* writing-mode: vertical-rl; */
-      /*文字の装飾は省略*/
       }
 
 .copy-container h1 {
@@ -473,4 +456,28 @@ overflow: hidden;
 .mv p{
   font-size: 25px;
 
+}
+.about-school-main h1{
+  text-align: center;
+}
+.about-school-main p{
+  text-align: center;
+}
+.about-counsil-main h1{
+  text-align: center;
+}
+.about-counsil-main p{
+  text-align: center;
+}
+.about-counsil-main h2{
+  text-align: center;
+}
+.about-counsil-main img{
+  width: 100%;
+}
+.contribution-schedule-main h1{
+  text-align: center;
+}
+.contribution-schedule-main p{
+  text-align: center;
 }

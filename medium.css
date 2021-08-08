@@ -89,9 +89,9 @@ header h1 a {
   color: #000000;
 }
 
-/* .menu:hover .sub-menu {
+.menu:hover .sub-menu {
   display: inline-block;
-} */
+}
 
 .menu:active .sub-menu {
   display: inline-block;

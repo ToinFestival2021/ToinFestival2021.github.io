@@ -457,3 +457,27 @@ overflow: hidden;
   font-size: 25px;
 
 }
+.about-school-main h1{
+  text-align: center;
+}
+.about-school-main p{
+  text-align: center;
+}
+.about-counsil-main h1{
+  text-align: center;
+}
+.about-counsil-main p{
+  text-align: center;
+}
+.about-counsil-main h2{
+  text-align: center;
+}
+.about-counsil-main img{
+  width: 100%;
+}
+.contribution-schedule-main h1{
+  text-align: center;
+}
+.contribution-schedule-main p{
+  text-align: center;
+}

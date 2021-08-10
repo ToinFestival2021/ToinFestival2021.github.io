@@ -517,3 +517,21 @@ background-color: #f8f8ff;
 .contribution-schedule-main p{
   text-align: center;
 }
+.box5, .box6, .box7 {
+  float: left;
+  border-color: blue;
+  width: 33.3333%; // 3分割
+}
+.boxA {
+  border: none;
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+.box-kyouryoku {
+  float: left;
+  border-color: yellow;
+  width: 100%;
+}

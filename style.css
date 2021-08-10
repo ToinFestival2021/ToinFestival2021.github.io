@@ -443,20 +443,55 @@ background: linear-gradient(90deg, rgba(238,26,7,1) 0%, rgba(231,102,224,1) 35%,
  -webkit-background-clip: text;//テキストでくり抜く
  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示 */
 }
-.mv{
+.mv-yushi{
 float: left;
 margin: 0px 60px 60px 50px;
 padding: 0;
 overflow: hidden;
+background-color: #fffafa;
 }
 /* iframe[src$=".pdf"]{
     width:50%;
     height:80vh;
 } */
-.mv p{
+.mv-yushi p{
   font-size: 25px;
 
 }
+
+.mv-keion{
+float: left;
+margin: 0px 60px 60px 50px;
+padding: 0;
+overflow: hidden;
+background-color: #fffaf0;
+}
+/* iframe[src$=".pdf"]{
+    width:50%;
+    height:80vh;
+} */
+.mv-keion p{
+  font-size: 25px;
+
+}
+
+.mv-class{
+float: left;
+margin: 0px 60px 60px 50px;
+padding: 0;
+overflow: hidden;
+background-color: #f8f8ff;
+}
+/* iframe[src$=".pdf"]{
+    width:50%;
+    height:80vh;
+} */
+.mv-class p{
+  font-size: 25px;
+
+}
+
+
 .about-school-main h1{
   text-align: center;
 }
@@ -478,6 +513,7 @@ overflow: hidden;
 .contribution-schedule-main h1{
   text-align: center;
 }
+
 .contribution-schedule-main p{
   text-align: center;
 }

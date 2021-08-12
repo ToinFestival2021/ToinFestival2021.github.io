@@ -1,6 +1,8 @@
 body{
   font-family: 'Noto Sans JP', sans-serif;
+
 }
+
 
 body,
 #wrapper {
@@ -191,7 +193,7 @@ header h1 a {
 
 .copy-container2 h1 {
     position: absolute;
-    font-size: 5vh;
+    font-size: 4vh;
     color: white;
     top: 50%;
     left: 50%;
@@ -298,7 +300,7 @@ header h1 a {
 
 }
 .contents img {
-  width: 100%;
+  width: 49.7%;
   }
   .box-for-group{
     /* border: solid 3px #000; */
@@ -561,13 +563,13 @@ background-color: #f8f8ff;
 
 #typewriter{
   position: absolute;
-  font-size: 4vh;
+  font-size: 0.1vh;
   color: black;
   top: 50%;
   left: 47%;
-  -ms-transform: translate(-50%,-50%);
+  /* -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%); */
   margin:0;
   padding:0;
   font-weight: bold;  /* 太文字にする */

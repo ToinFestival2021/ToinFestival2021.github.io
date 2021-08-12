@@ -24,6 +24,8 @@ header{
  vertical-align:top; /*縦方向の揃え位置を指定*/
  /* text-align: center; */
  color: #4682b4;
+ font-size: 3vh;
+
 
 }
 
@@ -299,8 +301,8 @@ header h1 a {
     position: absolute;
     /* font-size: 20px; */
     font-size: 1.4em;
-    top: 52%;
-    left: 67.5%;
+    top: 54%;
+    left: 65.5%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);

@@ -375,7 +375,7 @@ header h1 a {
   }
   .file-list{
     display: flex;
-    justify-content: center; /* 中央寄せ */
+/*     justify-content: center; /* 中央寄せ */ */
   }
   .tbox{
     width:580px; padding:10px;

@@ -97,9 +97,7 @@ header h1 a {
 .menu:active .sub-menu {
   display: inline-block;
 }
-.menu:hover .sub-menu {
-  display: inline-block;
-}
+
 
 
 .title-box-red{

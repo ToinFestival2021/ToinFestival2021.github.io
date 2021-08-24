@@ -555,7 +555,7 @@ background-color: #f8f8ff;
 #typewriter{
   position: absolute;
 /*   font-size: 6vh; */
-  font-size: 480%;
+  font-size: 240%;
   color: black;
   top: 50%;
   left: 52%;

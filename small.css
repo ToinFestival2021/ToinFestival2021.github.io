@@ -60,7 +60,7 @@ header h1 a {
   /* width: 300px; */
   width: 100%;
   /* height: 40px; */
-  height: 10vh;
+/*   height: 10vh; */
   text-align: center;
   position:sticky;
   top: 0%;
@@ -82,7 +82,7 @@ header h1 a {
   margin: 0vh;
   padding: 0vh;
   /* width: 300px; */
-  width: 50vh;
+/*   width: 50vh; */
 }
 
 .sub-menu > ul > li > a {
@@ -251,7 +251,7 @@ header h1 a {
   color: #fff;
   /* height:500px;
   padding: 40px; */
-  height: 100vh;
+/*   height: 100vh; */
   padding: 10vh;
   font-family: 'Noto Sans JP', sans-serif;
   /* position: absolute;
@@ -292,8 +292,9 @@ header h1 a {
   position: absolute;
   /* font-size: 20px; */
   font-size: 1.4em;
-  top: 10%;
+  top: 5%;
   left: 2%;
+  right: 2%
   /* -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%); */
@@ -302,7 +303,7 @@ header h1 a {
 
 }
 .contents img {
-  width: 49.7%;
+  width: 100%;
   }
   .box-for-group{
     /* border: solid 3px #000; */
@@ -311,8 +312,9 @@ header h1 a {
     position: absolute;
     /* font-size: 20px; */
     font-size: 1.4em;
-    top: 53%;
+    top: 52%;
     left: 2%;
+    right: 2%;
     /* -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%); */
@@ -530,16 +532,16 @@ background-color: #f8f8ff;
 .box5, .box6, .box7 {
   float: left;
   border-color: blue;
-  width: 33.3333%; // 3分割
+  width: 33.3333%; 
 }
-.boxA {
+/* .boxA {
   border: none;
   &:after {
     content: "";
     display: block;
     clear: both;
   }
-}
+} */
 .box-kyouryoku {
   float: left;
   border-color: yellow;
@@ -565,10 +567,10 @@ background-color: #f8f8ff;
 
 #typewriter{
   position: absolute;
-  font-size: 5px;
+  font-size: 150%;
   color: black;
-  top: 50%;
-  left: 47%;
+  top: 30%;
+  left: 10%;
   /* -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%); */
@@ -597,3 +599,105 @@ background-color: #f8f8ff;
     0% {opacity: 0}
     100% {opacity: 1}
 }
+
+
+.gnav {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background: #9fb7d4;
+}
+.gnav .nav {
+  /* width: 300px; */
+  height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+.gnav .nav li {
+  position: relative;
+  list-style: none;
+  box-sizing: border-box;
+  border-left: 1px solid #eee;
+}
+.gnav .nav li a {
+  display: block;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 3.2;
+  background: #9fb7d4;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.gnav .nav li:first-child {
+  border-left: 1px solid #eee;
+}
+.gnav .nav li:last-child {
+  border-right: 1px solid #eee;
+}
+.gnav .nav > li:hover > a {/*layer-1*/
+  color: orange;
+  background: #afc6e2;
+}
+.gnav .nav > li li:hover > a {/*layer-2*/
+  color: olive;
+  background: #afc6e2;
+}
+.gnav .nav li ul {
+  top: 40px;
+  left: -40px;
+  position: absolute;
+}
+.gnav .nav li ul li {
+  overflow: hidden;
+  height: 0;
+}
+.gnav .nav li ul li a {
+  border-top: 1px solid #eee;
+}
+.gnav .nav li:hover > ul > li {
+  overflow: visible;
+  height: 40px;
+  z-index: 10; /* TADASHI */
+}
+  .gnav .nav li ul li ul {
+    top: 0;
+    left: 20px;
+  }
+  .gnav .nav li ul li ul:before {/*layer-2▷*/
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: 30px;
+    border: 5px solid transparent;
+    border-left: 5px solid #fff;
+  }
+  .gnav .nav li ul li ul li:hover > a {/*layer-3*/
+    color: pink;
+    background: #afc6e2;
+  }
+  .gnav .nav li ul li ul.left {
+    top: 0;
+    left: -100px;
+  }
+  .gnav .nav li ul li ul.left:before,/*layer-2-left▷*/
+  .gnav .nav li ul li ul li ul.left:before {/*layer-3-left▷*/
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: 100px;
+    border: 5px solid transparent;
+    border-right: 5px solid #fff;
+  }
+  .gnav .nav li ul li ul.left li:hover > a {/*layer-2-left*/
+    color: pink;
+    background: #afc6e2;
+  }
+  .gnav .nav li ul li ul li ul.left li:hover > a {/*layer-3-left*/
+    color: purple;
+    background: #afc6e2;
+  }

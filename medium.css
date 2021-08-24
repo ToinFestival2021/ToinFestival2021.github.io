@@ -376,8 +376,8 @@ header h1 a {
     box-shadow:none;
   }
   .file-list{
-    display: flex;
-    justify-content: center; /* 中央寄せ */
+/*     display: flex; */
+/*     justify-content: center; 中央寄せ */
   }
   .tbox{
     width:580px; padding:10px;
@@ -519,16 +519,16 @@ background-color: #f8f8ff;
 .box5, .box6, .box7 {
   float: left;
   border-color: blue;
-  width: 33.3333%; // 3分割
+  width: 33.3333%; 
 }
-.boxA {
+/* .boxA {
   border: none;
   &:after {
     content: "";
     display: block;
     clear: both;
   }
-}
+} */
 .box-kyouryoku {
   float: left;
   border-color: yellow;
@@ -554,10 +554,11 @@ background-color: #f8f8ff;
 
 #typewriter{
   position: absolute;
-  font-size: 6vh;
+/*   font-size: 6vh; */
+  font-size: 480%;
   color: black;
   top: 50%;
-  left: 47%;
+  left: 52%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);

@@ -788,13 +788,14 @@ font-weight: bold;
 .about-contest h1{
   text-align: center;
 }
-.about-contest-img {
-  text-align: center;
-  width: 100%;
-}
 .about-contest h2{
   text-align: center;
 }
 .about-contest h3{
   text-align: center;
+}
+.about-contest-img img{
+width:100%;
+max-width: 100%;
+height: auto;
 }

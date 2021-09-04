@@ -520,10 +520,10 @@ background-color: #f8f8ff;
 .box5, .box6, .box7 {
   float: left;
   border-color: blue;
-  width: 33.3333%; 
+  width: 33.3333%;
 }
 
-/* 
+/*
 .boxA {
   border: none;
   &:after {
@@ -689,13 +689,90 @@ background-color: #f8f8ff;
     color: purple;
     background: #afc6e2;
   }
+
 .toin-contest h1{
-color: red;
+color: #ff1493;
 text-align: center;
+font-weight: bold;
 }
 .online-class-contest h2{
 	color: red;
+  text-align: center;
 }
 .online-class-contest p{
 	text-align: center;
+}
+.music-contest h2{
+  color: red;
+  text-align: center;
+}
+.music-contest p{
+  text-align: center;
+}
+.yushi-contest h2{
+  color: red;
+  text-align: center;
+}
+.yushi-contest p{
+  text-align: center;
+}
+.offline-class-contest h2{
+  color: red;
+  text-align: center;
+}
+.offline-class-contest p{
+  text-align: center;
+}
+.lanking h2{
+  color: red;
+  text-align: center;
+}
+#typewriter2::after {
+    content: "|";
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#typewriter2{
+  position: absolute;
+  font-size: 300%;
+  color: #ff8c00;
+  top: 50%;
+  left: 52%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-weight: bold;  /* 太文字にする */
+  text-shadow: 1px 1px 0 #808080,2px 2px 0 #808080,3px 3px 0 #808080;  /* 影を3重に指定 */
+}
+.about-contest p{
+  text-align: center;
+}
+.title-contest h1{
+  text-align: center;
+  background: linear-gradient(transparent 50%, #dcdcdc 80%);
+}
+.about-contest h1{
+  text-align: center;
+}
+.about-contest-img {
+  text-align: center;
+}
+.about-contest h2{
+  text-align: center;
+}
+.about-contest h3{
+  text-align: center;
 }

@@ -185,58 +185,59 @@ header h1 a {
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
-   /* writing-mode: vertical-rl; */
+  /* writing-mode: vertical-rl; */
   /*文字の装飾は省略*/
   }
 
 .copy-container2 h1 {
-    position: absolute;
-    font-size: 15vh;
-    color: white;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    margin:0;
-    padding:0;
-     /* writing-mode: vertical-rl; */
-    /*文字の装飾は省略*/
-    }
+  position: absolute;
+  font-size: 15vh;
+  color: white;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  /* writing-mode: vertical-rl; */
+  /*文字の装飾は省略*/
+}
 
 
 .copy-container img{
-      width: 100%;
-  }
+  width: 100%;
+}
 
 .copy-container span {
-      color: #ff4a4a;
-    }
+  color: #ff4a4a;
+}
+
 .copy-container {
-      position: relative;
-      }
+  position: relative;
+}
 
 .copy-container h1 {
-        position: absolute;
-        font-size: 12vh;
-        color: black;
-        top: 50%;
-        left: 47%;
-        -ms-transform: translate(-50%,-50%);
-        -webkit-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-        margin:0;
-        padding:0;
-        font-weight: bold;  /* 太文字にする */
-        text-shadow: 1px 1px 0 #808080,2px 2px 0 #808080,3px 3px 0 #808080;  /* 影を3重に指定 */
+  position: absolute;
+  font-size: 12vh;
+  color: black;
+  top: 50%;
+  left: 47%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-weight: bold;  /* 太文字にする */
+  text-shadow: 1px 1px 0 #808080,2px 2px 0 #808080,3px 3px 0 #808080;  /* 影を3重に指定 */
 
-         /* writing-mode: vertical-rl; */
-        /*文字の装飾は省略*/
-        }
+  /* writing-mode: vertical-rl; */
+  /*文字の装飾は省略*/
+}
 
 .contents{
-      position: relative;
-    }
+  position: relative;
+}
 
 .copy-container img {
   width: 100%;
@@ -260,19 +261,21 @@ header h1 a {
   /* font-size: 16px; */
   /* width: 32px; */
   width: 8vh;
- object-fit: cover;
+  object-fit: cover;
 }
 
 .footer-logo2 h1{
-    font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .footer-logo2 h2{
   font-family: 'Noto Sans JP', sans-serif;
 }
+
 .footer-logo2 p{
-   text-align: center;
+  text-align: center;
 }
+
 .box-for-music{
   /* border: solid 3px #000; */
   background-color: rgba(192, 192, 192, 0.65);
@@ -287,106 +290,112 @@ header h1 a {
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
-
 }
+
 .contents img {
   width: 49.7%;
   }
-  .box-for-group{
-    /* border: solid 3px #000; */
-    background-color: rgba(192, 192, 192, 0.65);
-    color: white;
-    position: absolute;
-    /* font-size: 20px; */
-    font-size: 1.4em;
-    top: 70%;
-    left: 66.5%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    margin:0;
-    padding:0;
 
-  }
+.box-for-group{
+  /* border: solid 3px #000; */
+  background-color: rgba(192, 192, 192, 0.65);
+  color: white;
+  position: absolute;
+  /* font-size: 20px; */
+  font-size: 1.4em;
+  top: 70%;
+  left: 66.5%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
 
 
-  .btn{
-      /* width:200px;
-      height:40px;
-      line-height:100px; */
-      width:21vh;
-      height:5vh;
-      line-height:5vh;
-  }
-  .btn a{
-      display:block;
-      width:20vh;
-      height:4vh;
-      text-decoration: none;
-      background:#FFFBFA;
-      text-align:center;
-      color:#040404;
-      /* font-size:25px; */
-      font-size:1em;
-      /* font-weight:bold; */
-      /* box-shadow:5px 5px 0px 0px #DEDEDE ; */
-      box-shadow:0.5vh 0.5vh 0 0 #DEDEDE ;
-  }
-  .btn a:hover{
-      background:#ADADAD;
-      color:#010101;
-      /* margin-left:5px;
-      margin-top:5px; */
-      margin-left:0.5vh;
-      margin-top:0.5vh;
-      box-shadow:none;
-  }
+.btn{
+  /* width:200px;
+  height:40px;
+  line-height:100px; */
+  width:21vh;
+  height:5vh;
+  line-height:5vh;
+}
 
-  .btn2{
-      /* width:200px;
-      height:40px;
-      line-height:40px; */
-      width:21vh;
-      height:5vh;
-      line-height:5vh;
-  }
-  .btn2 a{
-      display:block;
-      width:20vh;
-      height:4vh;
-      text-decoration: none;
-      background:#FFFBFA;
-      text-align:center;
-      color:#040404;
-      /* font-size:25px; */
-      font-size:1em;
-      /* font-weight:bold; */
-      /* box-shadow:5px 5px 0px 0px #DEDEDE ; */
-      box-shadow:0.5vh 0.5vh 0 0 #DEDEDE ;
-  }
-  .btn2 a:hover{
-    background:#ADADAD;
-    color:#010101;
-    /* margin-left:5px;
-    margin-top:5px; */
-    margin-left:0.5vh;
-    margin-top:0.5vh;
-    box-shadow:none;
-  }
-  .file-list{
-/*     display: flex; */
-/*     justify-content: center; /* 中央寄せ */ */
-  }
-  .tbox{
-    width:580px; padding:10px;
-    height:160px;
-  }
+.btn a{
+  display:block;
+  width:20vh;
+  height:4vh;
+  text-decoration: none;
+  background:#FFFBFA;
+  text-align:center;
+  color:#040404;
+  /* font-size:25px; */
+  font-size:1em;
+  /* font-weight:bold; */
+  /* box-shadow:5px 5px 0px 0px #DEDEDE ; */
+  box-shadow:0.5vh 0.5vh 0 0 #DEDEDE ;
+}
+
+.btn a:hover{
+  background:#ADADAD;
+  color:#010101;
+  /* margin-left:5px;
+  margin-top:5px; */
+  margin-left:0.5vh;
+  margin-top:0.5vh;
+  box-shadow:none;
+}
+
+.btn2{
+  /* width:200px;
+  height:40px;
+  line-height:40px; */
+  width:21vh;
+  height:5vh;
+  line-height:5vh;
+}
+.btn2 a{
+  display:block;
+  width:20vh;
+  height:4vh;
+  text-decoration: none;
+  background:#FFFBFA;
+  text-align:center;
+  color:#040404;
+  /* font-size:25px; */
+  font-size:1em;
+  /* font-weight:bold; */
+  /* box-shadow:5px 5px 0px 0px #DEDEDE ; */
+  box-shadow:0.5vh 0.5vh 0 0 #DEDEDE ;
+}
+
+.btn2 a:hover{
+  background:#ADADAD;
+  color:#010101;
+  /* margin-left:5px;
+  margin-top:5px; */
+  margin-left:0.5vh;
+  margin-top:0.5vh;
+  box-shadow:none;
+}
+
+.file-list{
+  /*     display: flex; */
+  /*     justify-content: center; /* 中央寄せ */
+}
+  
+.tbox{
+  width:580px; padding:10px;
+  height:160px;
+}
 
 
 .container-class-group p{
   text-align: center;
   font-size: 30px;
 }
+
 .container-class-group h1{
   text-align: center;
     font-style: bold;
@@ -397,9 +406,9 @@ header h1 a {
   -webkit-text-fill-color: transparent;
 
   /* color: #333;//非対応のブラウザでの文字色を設定
- background: url(https://i.ibb.co/mBLDkwZ/image0-4535.jpg);//使用する背景画像のURL
- -webkit-background-clip: text;//テキストでくり抜く
- -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示 */
+  background: url(https://i.ibb.co/mBLDkwZ/image0-4535.jpg);//使用する背景画像のURL
+  -webkit-background-clip: text;//テキストでくり抜く
+  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示 */
 }
 
 .container-yushi-group p{

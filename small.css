@@ -21,10 +21,10 @@ header{
   font-weight: bold;
 }
 .SideBySide h1{
- display:inline-block;
- vertical-align:top; /*縦方向の揃え位置を指定*/
- /* text-align: center; */
- color: #4682b4;
+  display:inline-block;
+  vertical-align:top; /*縦方向の揃え位置を指定*/
+  /* text-align: center; */
+  color: #4682b4;
 
 }
 

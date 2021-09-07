@@ -373,9 +373,8 @@ header h1 a {
     margin-top:0.5vh;
     box-shadow:none;
   }
-  .file-list{
-/*     display: flex; */
-/*     justify-content: center; /* 中央寄せ */ */
+  .file-list img{
+width: 50%;
   }
   .tbox{
     width:580px; padding:10px;

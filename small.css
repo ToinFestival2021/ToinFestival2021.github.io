@@ -802,3 +802,11 @@ height: auto;
 .lanking p{
  text-align: center;
 }
+
+.file-list{
+position: relative;
+}
+.file-list img{
+  width: 100%;
+}
+

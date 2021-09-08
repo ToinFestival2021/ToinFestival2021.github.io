@@ -373,9 +373,6 @@ header h1 a {
     margin-top:0.5vh;
     box-shadow:none;
   }
-  .file-list img{
-width: 50%;
-  }
   .tbox{
     width:580px; padding:10px;
     height:160px;

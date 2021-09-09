@@ -1,9 +1,6 @@
 body{
   font-family: 'Noto Sans JP', sans-serif;
-
 }
-
-
 body,
 #wrapper {
   display: flex;
@@ -329,7 +326,7 @@ header h1 a {
   position: absolute;
   /* font-size: 20px; */
   font-size: 1.4em;
-  top: 77%;
+  top: 70%;
   left: 2%;
   right: 2%
   /* -ms-transform: translate(-50%,-50%);
@@ -855,4 +852,3 @@ position: relative;
       margin-top:0.5vh;
       box-shadow:none;
   }
-

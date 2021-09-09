@@ -280,7 +280,7 @@ header h1 a {
   position: absolute;
   /* font-size: 20px; */
   font-size: 1.4em;
-  top: 60%;
+  top: 50%;
   left: 8%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -299,7 +299,7 @@ header h1 a {
     position: absolute;
     /* font-size: 20px; */
     font-size: 1.4em;
-    top: 70%;
+    top: 60%;
     left: 66.5%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
@@ -342,7 +342,7 @@ header h1 a {
       box-shadow:none;
   }
 
-  .btn2{
+ .btn2{
       /* width:200px;
       height:40px;
       line-height:40px; */
@@ -350,7 +350,7 @@ header h1 a {
       height:5vh;
       line-height:5vh;
   }
-  .btn2 a{
+ .btn2 a{
       display:block;
       width:20vh;
       height:4vh;
@@ -373,6 +373,7 @@ header h1 a {
     margin-top:0.5vh;
     box-shadow:none;
   }
+
   .tbox{
     width:580px; padding:10px;
     height:160px;
@@ -788,7 +789,7 @@ font-weight: bold;
   position: absolute;
   /* font-size: 20px; */
   font-size: 1.4em;
-  top: 70%;
+  top: 75%;
   left: 8%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);

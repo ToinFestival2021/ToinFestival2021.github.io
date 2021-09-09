@@ -781,3 +781,18 @@ font-weight: bold;
 .file-list img{
   width: 49.7%;
 }
+.box-for-class{
+  /* border: solid 3px #000; */
+  background-color: rgba(192, 192, 192, 0.65);
+  color: white;
+  position: absolute;
+  /* font-size: 20px; */
+  font-size: 1.4em;
+  top: 80%;
+  left: 8%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}

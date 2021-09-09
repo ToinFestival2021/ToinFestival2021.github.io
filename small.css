@@ -321,8 +321,24 @@ header h1 a {
     transform: translate(-50%,-50%); */
     margin:0;
     padding:0;
-
   }
+.box-for-class{
+  /* border: solid 3px #000; */
+  background-color: rgba(192, 192, 192, 0.65);
+  color: white;
+  position: absolute;
+  /* font-size: 20px; */
+  font-size: 1.4em;
+  top: 99%;
+  left: 2%;
+  right: 2%
+  /* -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%); */
+  margin:0;
+  padding:0;
+
+}
 
 
   .btn{
@@ -809,4 +825,35 @@ position: relative;
 .file-list img{
   width: 100%;
 }
+ .btn3{
+      /* width:200px;
+      height:40px;
+      line-height:100px; */
+      width:21vh;
+      height:5vh;
+      line-height:5vh;
+  }
+ .btn3 a{
+      display:block;
+      width:20vh;
+      height:4vh;
+      text-decoration: none;
+      background:#FFFBFA;
+      text-align:center;
+      color:#040404;
+      /* font-size:25px; */
+      font-size:1em;
+      /* font-weight:bold; */
+      /* box-shadow:5px 5px 0px 0px #DEDEDE ; */
+      box-shadow:0.5vh 0.5vh 0 0 #DEDEDE ;
+  }
+ .btn3 a:hover{
+      background:#ADADAD;
+      color:#010101;
+      /* margin-left:5px;
+      margin-top:5px; */
+      margin-left:0.5vh;
+      margin-top:0.5vh;
+      box-shadow:none;
+  }
 

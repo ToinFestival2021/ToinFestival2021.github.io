@@ -280,7 +280,7 @@ header h1 a {
   position: absolute;
   /* font-size: 20px; */
   font-size: 1.4em;
-  top: 70%;
+  top: 60%;
   left: 8%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -788,7 +788,7 @@ font-weight: bold;
   position: absolute;
   /* font-size: 20px; */
   font-size: 1.4em;
-  top: 80%;
+  top: 70%;
   left: 8%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);

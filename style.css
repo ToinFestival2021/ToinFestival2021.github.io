@@ -247,7 +247,7 @@ header h1 a {
   color: #fff;
   /* height:500px;
   padding: 40px; */
-  height: 50vh;
+/*   height: 50vh; */
   padding: 10vh;
   font-family: 'Noto Sans JP', sans-serif;
   /* position: absolute;
@@ -262,7 +262,6 @@ header h1 a {
   width: 8vh;
  object-fit: cover;
 }
-
 .footer-logo2 h1{
     font-family: 'Noto Sans JP', sans-serif;
 }
